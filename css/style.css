@@ -69,3 +69,18 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+@media screen and (max-width: 1000px) {
+
+  .col-lg-10 {
+      width: 500px;  
+  }
+
+  .col-lg-1 {
+    width: 150px;
+  }
+
+  .row {
+  width: 850px ;
+  }
+
+}
