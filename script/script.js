@@ -54,7 +54,7 @@ $(".saveBtn").on("click", function () {
     var di = $(this).data('index');
     allNotes[di] = $(classes[di]).val();
     localStorage.setItem('allNotes', JSON.stringify(allNotes))
-    alert("saved")
+    alert("Saved")
 
 })
 
@@ -77,7 +77,7 @@ $(".cleary").on("click", function () {
 
 //clear data function, clears allnote array, all rows and stores empty array in local storage
 function cleardata() {
-    var confirmDelete = confirm("Are you sure you want to clear all data");
+    var confirmDelete = confirm("Are you sure you want to clear all data?");
     if (confirmDelete == true) {
         allNotes = ["", "", "", "", "", "", "", "", "", "", ""];
         localStorage.setItem('allNotes', JSON.stringify(allNotes));
@@ -100,3 +100,12 @@ function checkDay() {
         }
     }
 }
+
+//save all button function, stores everything in allNotes array and local storage data
+$(".savey").on("click", function () {
+    for (i = 0; i < classes.length; i++) {
+        allNotes[i] = $(classes[i]).val();
+    }
+    localStorage.setItem('allNotes', JSON.stringify(allNotes))
+    alert("All Data Saved")
+})

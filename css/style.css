@@ -69,18 +69,66 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.col-lg-4 {
+  display: none;
+}
+
+.bottom {
+  text-align: center;
+}
 @media screen and (max-width: 1000px) {
 
   .col-lg-10 {
-      width: 500px;  
+      width: 460px;  
   }
 
   .col-lg-1 {
-    width: 150px;
+    width: 110px;
   }
 
   .row {
-  width: 850px ;
+  width: 700px ;
   }
 
+}
+
+@media screen and (max-width: 710px) {
+
+  .col-lg-10 {
+      width: 382px;  
+  }
+
+  .col-lg-1 {
+    width: 58px;
+  }
+
+  .row {
+  width: 500px ;
+  }
+
+  .textarea {
+    font-size: x-small;
+  }
+
+}
+
+@media screen and (max-width: 510px) {
+
+  .col-lg-10 {
+      width: 254px;  
+  }
+
+  .col-lg-1 {
+    width: 50px;
+  }
+
+  .row {
+  width: 355px ;
+  }
+
+  .hour {
+    font-size: small;
+  }
+  
 }

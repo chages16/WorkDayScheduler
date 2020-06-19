@@ -44,12 +44,13 @@ To make the project my mine, I made a few additions:
 
 1. A clear function activated by a button that would erase all the data within the table.
 2. A function that stores the current date every time the application is run in the morning, and compares it with the date that is already there (if one exists). If the dates do not match, it sends an alert to the user letting them know the day has change and asks if the user wants to clear all the data.
+3. A save all function so you can save all the inputs.
 
 I ran the functions a few times and manually altered the system time to ensure it met all acceptance criteria.
 
 ## Next Steps/ Improvements
 
-My next steps would be to use CSS to make the application work on phones rather than just laptop screens.
+My next steps would be to improve the CSS to make the application work better on phones rather than just laptop screens. I managed to manually alter the widths with media queries but would like to improve them.
 
 I'd also like to be able to schedule future days, choose between days and have the content change depending what day was selected.
 
